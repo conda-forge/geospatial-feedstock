@@ -42,6 +42,7 @@ requirements:
     - sqlalchemy
     - streamlit-folium
     - xarray-spatial
+    - google-api-python-client <2
 
 test:
   imports:
