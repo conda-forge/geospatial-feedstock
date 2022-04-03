@@ -1,5 +1,5 @@
 {% set name = "geospatial" %}
-{% set version = "0.2.2" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/geospatial-{{ version }}.tar.gz
-  sha256: b0dcd7aa22540d3516db7ef2d287f3f1f98575a557d4143f7eee49ba956cb212
+  sha256: 9316104ce252d77e4863769bba27fba8af3f37afa06558b1ccc4f86351777857
 
 build:
   noarch: python
@@ -20,11 +20,14 @@ requirements:
     - python >=3.7
   run:
     - python >=3.7
+    - geemap
     - geopandas
+    - httplib2shim
     - ipygany
     - ipyvtklink
     - keplergl
     - laspy
+    - leafmap
     - localtileserver
     - netcdf4
     - osmnx
