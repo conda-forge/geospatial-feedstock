@@ -24,6 +24,7 @@ requirements:
     - bump2version
     - codespell
     - cartopy
+    - dask-geopandas
     - geemap
     - geopandas
     - here-map-widget-for-jupyter
