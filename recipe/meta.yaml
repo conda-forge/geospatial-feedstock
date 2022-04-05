@@ -54,6 +54,7 @@ requirements:
     - owslib
     - panel
     - palettable
+    - pillow <=8.4.0 # required by sentinelhub
     - planetary-computer
     - plotly
     - proplot
