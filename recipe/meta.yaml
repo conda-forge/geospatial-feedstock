@@ -1,5 +1,5 @@
 {% set name = "geospatial" %}
-{% set version = "0.3.2" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/geospatial-{{ version }}.tar.gz
-  sha256: 4565fb8e87baf4af6ab2484957ce9b45052343ea8867e7a2c53739e2335f87a5
+  sha256: b196018e329ddabc0906276ffac7c4830e8272ab904919ec97421fd15f7ba4e5
 
 build:
   noarch: python
@@ -26,9 +26,14 @@ requirements:
     - cartopy
     - dask-geopandas
     - datashader
+    - earthengine-api
     - earthpy
+    - easystac
+    - eemont
+    - eomaps
     - geemap
     - gemgis
+    - geoalchemy2
     - geopandas
     - geoviews
     - here-map-widget-for-jupyter
@@ -49,24 +54,32 @@ requirements:
     - owslib
     - panel
     - palettable
+    - pillow <=8.4.0 # required by sentinelhub
+    - planetary-computer
     - plotly
+    - proplot
     - psycopg2
     - pydeck
     - python-mss
     - pyntcloud
     - pyvista
+    - radiant-mlhub
     - rasterio
     - rasterstats
     - rio-cogeo
     - rioxarray
+    - s2cloudless
+    - satpy
     - sentinelsat
     - shapely
+    - spyndex
     - sqlalchemy
-    - satpy
+    - stackstac
     - streamlit-folium
     - voila
     - xarray-spatial
-    - google-api-python-client <2  # required for earthengine-api
+    - xmovie
+    - wxee
 
 test:
   imports:
