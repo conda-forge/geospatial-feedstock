@@ -1,5 +1,5 @@
 {% set name = "geospatial" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/geospatial-{{ version }}.tar.gz
-  sha256: 9316104ce252d77e4863769bba27fba8af3f37afa06558b1ccc4f86351777857
+  sha256: f50e90dfed2a4ba174039389b202a1d8e078cfc2ace860a4d1fca6127a30c244
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 3
+  number: 0
 
 requirements:
   host:
@@ -25,12 +25,17 @@ requirements:
     - codespell
     - cartopy
     - dask-geopandas
+    - datashader
+    - earthpy
     - geemap
     - gemgis
     - geopandas
+    - geoviews
     - here-map-widget-for-jupyter
     - httplib2shim
+    - hvplot
     - ipygany
+    - ipyleaflet
     - ipynb-py-convert
     - ipyvtklink
     - keplergl
@@ -42,8 +47,6 @@ requirements:
     - netcdf4
     - osmnx
     - owslib
-    - rasterio
-    - rasterstats
     - panel
     - palettable
     - plotly
@@ -52,9 +55,13 @@ requirements:
     - python-mss
     - pyntcloud
     - pyvista
+    - rasterio
+    - rasterstats
     - rio-cogeo
     - rioxarray
+    - shapely
     - sqlalchemy
+    - satpy
     - streamlit-folium
     - voila
     - xarray-spatial
