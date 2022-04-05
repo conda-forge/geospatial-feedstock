@@ -26,9 +26,14 @@ requirements:
     - cartopy
     - dask-geopandas
     - datashader
+    - earthengine-api
     - earthpy
+    - easystac
+    - eemont
+    - eomaps
     - geemap
     - gemgis
+    - geoalchemy2
     - geopandas
     - geoviews
     - here-map-widget-for-jupyter
@@ -49,24 +54,31 @@ requirements:
     - owslib
     - panel
     - palettable
+    - planetary-computer
     - plotly
+    - proplot
     - psycopg2
     - pydeck
     - python-mss
     - pyntcloud
     - pyvista
+    - radiant-mlhub
     - rasterio
     - rasterstats
     - rio-cogeo
     - rioxarray
+    - s2cloudless
+    - satpy
     - sentinelsat
     - shapely
+    - spyndex
     - sqlalchemy
-    - satpy
+    - stackstac
     - streamlit-folium
     - voila
     - xarray-spatial
-    - google-api-python-client <2  # required for earthengine-api
+    - xmovie
+    - wxee
 
 test:
   imports:
