@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -69,6 +69,7 @@ requirements:
     - rio-cogeo
     - rioxarray
     - s2cloudless
+    - sarpy
     - satpy
     - sentinelsat
     - shapely
