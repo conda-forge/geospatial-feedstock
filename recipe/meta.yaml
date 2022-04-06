@@ -1,5 +1,5 @@
 {% set name = "geospatial" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/geospatial-{{ version }}.tar.gz
-  sha256: b196018e329ddabc0906276ffac7c4830e8272ab904919ec97421fd15f7ba4e5
+  sha256: 5d17b845f3599b313309f9125e61955648a0eb2e146260111e960cda298dc7a0
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -69,6 +69,7 @@ requirements:
     - rio-cogeo
     - rioxarray
     - s2cloudless
+    - sarpy
     - satpy
     - sentinelsat
     - shapely
