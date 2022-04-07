@@ -1,5 +1,5 @@
 {% set name = "geospatial" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/geospatial-{{ version }}.tar.gz
-  sha256: 5d17b845f3599b313309f9125e61955648a0eb2e146260111e960cda298dc7a0
+  sha256: 627dc3a4e9171e59465f3ae089653a64fbbb96fed1f1e0668271e34a4fcefdc1
 
 build:
   noarch: python
@@ -50,6 +50,7 @@ requirements:
     - mapboxgl
     - movingpandas
     - netcdf4
+    - odc-stac
     - osmnx
     - owslib
     - panel
