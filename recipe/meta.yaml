@@ -1,5 +1,5 @@
 {% set name = "geospatial" %}
-{% set version = "0.5.2" %}
+{% set version = "0.5.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/geospatial-{{ version }}.tar.gz
-  sha256: 52942ee9c9d80f62b4318f9f4c3dc0d2b738d4401bec01b472d384b5a241cf3d
+  sha256: 5782d7c9509d677db214be7af44e86f7889e3e6ae208464a04be6b1e375fc1e1
 
 build:
   noarch: python
@@ -22,6 +22,7 @@ requirements:
     - python >=3.7
     - black-jupyter
     - bump2version
+    - cenpy
     - codespell
     - cartopy
     - dask-geopandas
@@ -36,6 +37,7 @@ requirements:
     - geoalchemy2
     - geopandas
     - geoviews
+    - h3
     - here-map-widget-for-jupyter
     - httplib2shim
     - hvplot
