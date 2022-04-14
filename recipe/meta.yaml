@@ -1,5 +1,5 @@
 {% set name = "geospatial" %}
-{% set version = "0.5.3" %}
+{% set version = "0.5.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/geospatial-{{ version }}.tar.gz
-  sha256: 5782d7c9509d677db214be7af44e86f7889e3e6ae208464a04be6b1e375fc1e1
+  sha256: b98c534ff93dc4acf2f135410b8f67d8e78d927700c435b680ff759ae7a87696
 
 build:
   noarch: python
@@ -46,6 +46,7 @@ requirements:
     - ipyleaflet
     - ipynb-py-convert
     - ipyvtklink
+    - jupytext
     - keplergl
     - laspy
     - leafmap
