@@ -38,6 +38,7 @@ requirements:
     - geopandas
     - geoviews
     - h3
+    - h3-py
     - here-map-widget-for-jupyter
     - httplib2shim
     - hvplot
@@ -88,10 +89,10 @@ requirements:
 test:
   imports:
     - geospatial
-  # commands:
-  #   - pip check
-  # requires:
-  #   - pip
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/giswqs/geospatial
