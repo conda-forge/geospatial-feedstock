@@ -88,10 +88,10 @@ requirements:
 test:
   imports:
     - geospatial
-  commands:
-    - pip check
-  requires:
-    - pip
+  # commands:
+  #   - pip check
+  # requires:
+  #   - pip
 
 about:
   home: https://github.com/giswqs/geospatial
