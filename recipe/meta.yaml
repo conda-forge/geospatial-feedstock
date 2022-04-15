@@ -1,5 +1,5 @@
 {% set name = "geospatial" %}
-{% set version = "0.5.4" %}
+{% set version = "0.5.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/geospatial-{{ version }}.tar.gz
-  sha256: b98c534ff93dc4acf2f135410b8f67d8e78d927700c435b680ff759ae7a87696
+  sha256: ff04bef7d40b0b16e301d6801d0e80354735b8fc86fc61b1982bdb352b1f3f89
 
 build:
   noarch: python
@@ -35,6 +35,7 @@ requirements:
     - geemap
     - gemgis
     - geoalchemy2
+    - geocube
     - geopandas
     - geoviews
     - h3
