@@ -1,5 +1,5 @@
 {% set name = "geospatial" %}
-{% set version = "0.5.5" %}
+{% set version = "0.5.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/geospatial-{{ version }}.tar.gz
-  sha256: ff04bef7d40b0b16e301d6801d0e80354735b8fc86fc61b1982bdb352b1f3f89
+  sha256: c6f9725d6913668fff6011d45795fcc79b544ee9f97d36021cd7a5218bf10475
 
 build:
   noarch: python
@@ -22,9 +22,10 @@ requirements:
     - python >=3.7
     - black-jupyter
     - bump2version
+    - cartopy
     - cenpy
     - codespell
-    - cartopy
+    - contextily
     - dask-geopandas
     - datashader
     - earthengine-api
@@ -79,6 +80,7 @@ requirements:
     - satpy
     - sentinelsat
     - shapely
+    - sliderule
     - spyndex
     - sqlalchemy
     - stackstac
@@ -98,7 +100,7 @@ test:
 
 about:
   home: https://github.com/giswqs/geospatial
-  summary: A Python package for geosptial analysis and data visualization
+  summary: A Python package for geospatial analysis and data visualization
   license: MIT
   license_family: MIT
   license_file: LICENSE
