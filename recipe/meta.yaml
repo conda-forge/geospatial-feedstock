@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 2
 
 requirements:
   host:
@@ -100,7 +100,8 @@ test:
 
 about:
   home: https://github.com/giswqs/geospatial
-  summary: A Python package for geospatial analysis and data visualization
+  summary: A Python package for installing commonly used packages for geospatial analysis and data visualization with only one command.  
+  description: A Python package for installing commonly used packages for geospatial analysis and data visualization with only one command. 
   license: MIT
   license_family: MIT
   license_file: LICENSE
