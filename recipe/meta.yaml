@@ -36,7 +36,7 @@ requirements:
     - geemap >=0.13.7
     - gemgis
     - geoalchemy2
-    - geocube
+    - geocube >=0.3.1
     - geopandas
     - geoviews
     - h3
