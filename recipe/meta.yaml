@@ -53,43 +53,43 @@ requirements:
     # - laspy
     # - leafmap >=0.9.3
     - localtileserver
-    # - mapboxgl
-    # - matplotlib >=3.5
-    # - movingpandas
-    # - netcdf4
-    # - odc-stac
-    # - osmnx
-    # - owslib
-    # - panel
-    # - palettable
-    # - pillow <=8.4.0 # required by sentinelhub
-    # - planetary-computer
-    # - plotly
-    # - proplot
-    # - psycopg2
-    # - pydeck
-    # - python-mss
-    # - pyntcloud
-    # - pyvista
-    # - radiant-mlhub
-    # - rasterio
-    # - rasterstats
-    # - rio-cogeo
-    # - rioxarray
-    # - s2cloudless
-    # - sarpy
-    # - satpy
-    # - sentinelsat
-    # - shapely
-    # - sliderule
-    # - spyndex
-    # - sqlalchemy
-    # - stackstac
-    # - streamlit-folium
-    # - voila
-    # - xarray-spatial
-    # - xmovie
-    # - wxee
+    - mapboxgl
+    - matplotlib >=3.5
+    - movingpandas
+    - netcdf4
+    - odc-stac
+    - osmnx
+    - owslib
+    - panel
+    - palettable
+    - pillow <=8.4.0 # required by sentinelhub
+    - planetary-computer
+    - plotly
+    - proplot
+    - psycopg2
+    - pydeck
+    - python-mss
+    - pyntcloud
+    - pyvista
+    - radiant-mlhub
+    - rasterio
+    - rasterstats
+    - rio-cogeo
+    - rioxarray
+    - s2cloudless
+    - sarpy
+    - satpy
+    - sentinelsat
+    - shapely
+    - sliderule
+    - spyndex
+    - sqlalchemy
+    - stackstac
+    - streamlit-folium
+    - voila
+    - xarray-spatial
+    - xmovie
+    - wxee
 
 test:
   imports:
