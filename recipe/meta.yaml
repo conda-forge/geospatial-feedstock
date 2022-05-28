@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 3
+  number: 4
 
 requirements:
   host:
@@ -33,7 +33,7 @@ requirements:
     - easystac
     - eemont
     - eomaps
-    - geemap
+    - geemap >=0.13.7
     - gemgis
     - geoalchemy2
     - geocube
@@ -50,7 +50,7 @@ requirements:
     - jupytext
     - keplergl
     - laspy
-    - leafmap
+    - leafmap >=0.9.3
     - localtileserver
     - mapboxgl
     - movingpandas
