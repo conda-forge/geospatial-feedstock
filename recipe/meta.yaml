@@ -53,6 +53,7 @@ requirements:
     - leafmap >=0.9.3
     - localtileserver
     - mapboxgl
+    - matplotlib >=3.5
     - movingpandas
     - netcdf4
     - odc-stac
