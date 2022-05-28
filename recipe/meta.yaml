@@ -30,7 +30,7 @@ requirements:
     - datashader
     - earthengine-api
     - earthpy
-    - easystac
+    # - easystac
     - eemont
     - eomaps
     - geemap >=0.13.7
