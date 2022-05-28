@@ -33,6 +33,7 @@ requirements:
     # - easystac
     - eemont
     - eomaps
+    - gdal >=3.5
     - geemap >=0.13.7
     - gemgis
     - geoalchemy2
@@ -83,7 +84,7 @@ requirements:
     - sliderule
     - spyndex
     - sqlalchemy
-    - stackstac
+    # - stackstac
     - streamlit-folium
     - voila
     - xarray-spatial
