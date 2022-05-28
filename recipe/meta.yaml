@@ -22,7 +22,7 @@ requirements:
     - python >=3.7
     - black-jupyter
     - bump2version
-    - cartopy
+    - cartopy >=0.20.0
     - cenpy
     - codespell
     - contextily
