@@ -39,19 +39,19 @@ requirements:
     # - geoalchemy2
     # - geocube >=0.3.1
     - geopandas
-    # - geoviews
-    # - h3
-    # - h3-py
-    # - here-map-widget-for-jupyter
-    # - hvplot
-    # - ipygany
-    # - ipyleaflet
-    # - ipynb-py-convert
-    # - ipyvtklink
-    # - jupytext
-    # - keplergl
-    # - laspy
-    # - leafmap >=0.9.3
+    - geoviews
+    - h3
+    - h3-py
+    - here-map-widget-for-jupyter
+    - hvplot
+    - ipygany
+    - ipyleaflet
+    - ipynb-py-convert
+    - ipyvtklink
+    - jupytext
+    - keplergl
+    - laspy
+    - leafmap >=0.9.3
     - localtileserver
     - mapboxgl
     - matplotlib >=3.5
