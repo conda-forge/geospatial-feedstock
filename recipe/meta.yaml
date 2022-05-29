@@ -52,7 +52,7 @@ requirements:
     - keplergl
     - laspy
     - leafmap >=0.9.3
-    - localtileserver >0.5.8
+    - localtileserver >=0.5.8
     - mapboxgl
     - movingpandas
     - netcdf4
