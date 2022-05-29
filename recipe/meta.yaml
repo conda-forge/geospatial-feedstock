@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 2
+  number: 3
 
 requirements:
   host:
@@ -33,26 +33,26 @@ requirements:
     - easystac
     - eemont
     - eomaps
-    - geemap
+    - folium >=0.12.1
+    - geemap >=0.13.7
     - gemgis
     - geoalchemy2
     - geocube
-    - geopandas
+    - geopandas >=0.10.2
     - geoviews
     - h3
     - h3-py
     - here-map-widget-for-jupyter
-    - httplib2shim
     - hvplot
     - ipygany
-    - ipyleaflet
+    - ipyleaflet >=0.16.0
     - ipynb-py-convert
     - ipyvtklink
     - jupytext
     - keplergl
     - laspy
-    - leafmap
-    - localtileserver
+    - leafmap >=0.9.3
+    - localtileserver >=0.5.8
     - mapboxgl
     - movingpandas
     - netcdf4
@@ -61,7 +61,7 @@ requirements:
     - owslib
     - panel
     - palettable
-    - pillow <=8.4.0 # required by sentinelhub
+    - pillow 
     - planetary-computer
     - plotly
     - proplot
@@ -93,8 +93,8 @@ requirements:
 test:
   imports:
     - geospatial
-  commands:
-    - pip check
+  # commands:
+  #   - pip check
   requires:
     - pip
 
