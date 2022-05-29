@@ -22,74 +22,73 @@ requirements:
     - python >=3.7
     - black-jupyter
     - bump2version
-    # - cartopy >=0.20.0
-    # - cenpy
+    - cartopy
+    - cenpy
     - codespell
-    # - contextily
-    # - dask-geopandas
-    # - datashader
-    # - earthengine-api
-    # - earthpy
-    # - easystac
-    # - eemont
-    # - eomaps
-    # - gdal >=3.5
-    - geemap >=0.13.7
-    # - gemgis
-    # - geoalchemy2
-    # - geocube >=0.3.1
-    # - geopandas
-    # - geoviews
-    # - h3
-    # - h3-py
-    # - here-map-widget-for-jupyter
-    # - hvplot
-    # - ipygany
-    # - ipyleaflet
-    # - ipynb-py-convert
-    # - ipyvtklink
-    # - jupytext
-    # - keplergl
-    # - laspy
-    - leafmap >=0.9.3
-    # - localtileserver
-    # - mapboxgl
-    # - matplotlib >=3.5
-    # - movingpandas
-    # - netcdf4
-    # - odc-stac
-    # - osmnx
-    # - owslib
-    # - panel
-    # - palettable
-    # - pillow <=8.4.0 # required by sentinelhub
-    # - planetary-computer
-    # - plotly
-    # - proplot
-    # - psycopg2
-    # - pydeck
-    # - python-mss
-    # - pyntcloud
-    # - pyvista
-    # - radiant-mlhub
-    # - rasterio
-    # - rasterstats
-    # - rio-cogeo
-    # - rioxarray
-    # - s2cloudless
-    # - sarpy
-    # - satpy
-    # - sentinelsat
-    # - shapely
-    # - sliderule
-    # - spyndex
-    # - sqlalchemy
-    # - stackstac
-    # - streamlit-folium
-    # - voila
-    # - xarray-spatial
-    # - xmovie
-    # - wxee
+    - contextily
+    - dask-geopandas
+    - datashader
+    - earthengine-api
+    - earthpy
+    - easystac
+    - eemont
+    - eomaps
+    - geemap
+    - gemgis
+    - geoalchemy2
+    - geocube
+    - geopandas
+    - geoviews
+    - h3
+    - h3-py
+    - here-map-widget-for-jupyter
+    - httplib2shim
+    - hvplot
+    - ipygany
+    - ipyleaflet
+    - ipynb-py-convert
+    - ipyvtklink
+    - jupytext
+    - keplergl
+    - laspy
+    - leafmap
+    - localtileserver
+    - mapboxgl
+    - movingpandas
+    - netcdf4
+    - odc-stac
+    - osmnx
+    - owslib
+    - panel
+    - palettable
+    - pillow <=8.4.0 # required by sentinelhub
+    - planetary-computer
+    - plotly
+    - proplot
+    - psycopg2
+    - pydeck
+    - python-mss
+    - pyntcloud
+    - pyvista
+    - radiant-mlhub
+    - rasterio
+    - rasterstats
+    - rio-cogeo
+    - rioxarray
+    - s2cloudless
+    - sarpy
+    - satpy
+    - sentinelsat
+    - shapely
+    - sliderule
+    - spyndex
+    - sqlalchemy
+    - stackstac
+    - streamlit-folium
+    - voila
+    - xarray-spatial
+    - xmovie
+    - wxee
 
 test:
   imports:
