@@ -1,5 +1,5 @@
 {% set name = "geospatial" %}
-{% set version = "0.5.6" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/geospatial-{{ version }}.tar.gz
-  sha256: c6f9725d6913668fff6011d45795fcc79b544ee9f97d36021cd7a5218bf10475
+  sha256: 7c55793bd50a86c6cbfa82d10f20f80821083ba9bfa245e3a5cf22761bc8581b
 
 build:
   noarch: python
@@ -52,6 +52,7 @@ requirements:
     - keplergl
     - laspy
     - leafmap >=0.9.3
+    - lidar
     - localtileserver >=0.5.8
     - mapboxgl
     - movingpandas
@@ -67,6 +68,7 @@ requirements:
     - proplot
     - psycopg2
     - pydeck
+    - pysal
     - python-mss
     - pyntcloud
     - pyvista
@@ -78,6 +80,7 @@ requirements:
     - s2cloudless
     - sarpy
     - satpy
+    - scholarpy
     - sentinelsat
     - shapely
     - sliderule
