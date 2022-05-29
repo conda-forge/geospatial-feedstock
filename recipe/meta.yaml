@@ -33,7 +33,7 @@ requirements:
     - easystac
     - eemont
     - eomaps
-    - geemap
+    - geemap >=0.13.7
     - gemgis
     - geoalchemy2
     - geocube
@@ -93,8 +93,8 @@ requirements:
 test:
   imports:
     - geospatial
-  commands:
-    - pip check
+  # commands:
+  #   - pip check
   requires:
     - pip
 
