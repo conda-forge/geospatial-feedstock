@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -39,6 +39,7 @@ requirements:
     - geoalchemy2
     - geocube
     - geopandas >=0.10.2
+    - geosnap
     - geoviews
     - h3
     - h3-py
