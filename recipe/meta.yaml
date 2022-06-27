@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 2
 
 requirements:
   host:
@@ -34,7 +34,7 @@ requirements:
     - eemont
     - eomaps
     - folium >=0.12.1
-    - geemap >=0.13.7
+    - geemap >=0.14.1
     - gemgis
     - geoalchemy2
     - geocube
@@ -52,7 +52,7 @@ requirements:
     - jupytext
     - keplergl
     - laspy
-    - leafmap >=0.9.3
+    - leafmap >=0.9.5
     - lidar
     - localtileserver >=0.5.8
     - mapboxgl
@@ -69,6 +69,7 @@ requirements:
     - proplot
     - psycopg2
     - pydeck
+    - pygis >=0.3.1
     - pysal
     - python-mss
     - pyntcloud
@@ -89,6 +90,7 @@ requirements:
     - sqlalchemy
     - stackstac
     - streamlit-folium
+    - tropycal
     - voila
     - xarray-spatial
     - xmovie
