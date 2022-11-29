@@ -1,5 +1,5 @@
 {% set name = "geospatial" %}
-{% set version = "0.6.1" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/geospatial-{{ version }}.tar.gz
-  sha256: 9fb2fedf29a54216a954f7726cf6ff45b3fae91b5781590c4f3acfa8d23f5023
+  sha256: fc3da3760bb457b2ea146a378f97114741c36fc1dcd951efccb502a2e8b77cc1
 
 build:
   noarch: python
@@ -20,11 +20,9 @@ requirements:
     - python >=3.7
   run:
     - python >=3.7
-    - black-jupyter
-    - bump2version
+    - bokeh
     - cartopy
     - cenpy
-    - codespell
     - contextily
     - dask-geopandas
     - datashader
@@ -34,7 +32,7 @@ requirements:
     - eemont
     - eomaps
     - folium >=0.12.1
-    - geemap >=0.14.1
+    - geemap >=0.18.1
     - gemgis
     - geoalchemy2
     - geocube
@@ -47,14 +45,12 @@ requirements:
     - hvplot
     - ipygany
     - ipyleaflet >=0.16.0
-    - ipynb-py-convert
     - ipyvtklink
-    - jupytext
     - keplergl
     - laspy
-    - leafmap >=0.9.5
+    - leafmap >=0.14.0
     - lidar
-    - localtileserver >=0.5.8
+    - localtileserver >=0.6.1
     - mapboxgl
     - movingpandas
     - netcdf4
@@ -69,11 +65,9 @@ requirements:
     - proplot
     - psycopg2
     - pydeck
-    - pygis >=0.3.1
+    - pygis >=0.5.0
     - pysal
-    - python-mss
     - pyntcloud
-    - pyvista
     - radiant-mlhub
     - rasterio
     - rasterstats
@@ -82,16 +76,13 @@ requirements:
     - s2cloudless
     - sarpy
     - satpy
-    - scholarpy
     - sentinelsat
     - shapely
     - sliderule
     - spyndex
     - sqlalchemy
     - stackstac
-    - streamlit-folium
     - tropycal
-    - voila
     - xarray-spatial
     - xmovie
     - wxee
