@@ -65,7 +65,7 @@ requirements:
     - proplot
     - psycopg2
     - pydeck
-    - pygis >=0.7.0
+    - pygis >=0.5.0
     - pysal
     - pyntcloud
     - radiant-mlhub
