@@ -1,5 +1,5 @@
 {% set name = "geospatial" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/geospatial-{{ version }}.tar.gz
-  sha256: fc3da3760bb457b2ea146a378f97114741c36fc1dcd951efccb502a2e8b77cc1
+  sha256: 89741de105df6079f4c9d721e720836a1355376761cd46143efe9fcb7fd2200e
 
 build:
   noarch: python
@@ -17,9 +17,9 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
   run:
-    - python >=3.7
+    - python >=3.8
     - bokeh
     - cartopy
     - cenpy
@@ -31,8 +31,9 @@ requirements:
     - easystac
     - eemont
     - eomaps
+    - eoreader
     - folium >=0.12.1
-    - geemap >=0.18.1
+    - geemap >=0.20.0
     - gemgis
     - geoalchemy2
     - geocube
@@ -48,10 +49,11 @@ requirements:
     - ipyvtklink
     - keplergl
     - laspy
-    - leafmap >=0.14.0
+    - leafmap >=0.19.0
     - lidar
     - localtileserver >=0.6.1
     - mapboxgl
+    - mapwidget
     - movingpandas
     - netcdf4
     - odc-stac
@@ -66,8 +68,10 @@ requirements:
     - psycopg2
     - pydeck
     - pygis >=0.5.0
-    - pysal
     - pyntcloud
+    - pysal
+    - python-mss
+    - pyvista
     - radiant-mlhub
     - rasterio
     - rasterstats
@@ -78,6 +82,7 @@ requirements:
     - satpy
     - sentinelsat
     - shapely
+    - simplekml
     - sliderule
     - spyndex
     - sqlalchemy
