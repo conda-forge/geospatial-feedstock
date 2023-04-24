@@ -1,5 +1,5 @@
 {% set name = "geospatial" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/geospatial-{{ version }}.tar.gz
-  sha256: fc3da3760bb457b2ea146a378f97114741c36fc1dcd951efccb502a2e8b77cc1
+  sha256: 89741de105df6079f4c9d721e720836a1355376761cd46143efe9fcb7fd2200e
 
 build:
   noarch: python
@@ -59,7 +59,7 @@ requirements:
     - owslib
     - panel
     - palettable
-    - pillow 
+    - pillow
     - planetary-computer
     - plotly
     - proplot
@@ -97,8 +97,8 @@ test:
 
 about:
   home: https://github.com/giswqs/geospatial
-  summary: A Python package for installing commonly used packages for geospatial analysis and data visualization with only one command.  
-  description: A Python package for installing commonly used packages for geospatial analysis and data visualization with only one command. 
+  summary: A Python package for installing commonly used packages for geospatial analysis and data visualization with only one command.
+  description: A Python package for installing commonly used packages for geospatial analysis and data visualization with only one command.
   license: MIT
   license_family: MIT
   license_file: LICENSE
