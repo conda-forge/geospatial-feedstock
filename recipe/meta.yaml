@@ -24,6 +24,7 @@ requirements:
     - cartopy
     - cenpy
     - contextily
+    - cubo
     - dask-geopandas
     - datashader
     - earthengine-api
@@ -32,27 +33,28 @@ requirements:
     - eemont
     - eomaps
     - eoreader
+    - fiona
     - folium >=0.12.1
-    - geemap >=0.20.0
-    - gemgis
+    - geemap >=0.24.0
     - geoalchemy2
     - geocube
     - geopandas >=0.10.2
+    - geotiff
     - geosnap
     - geoviews
     - h3
     - h3-py
-    - here-map-widget-for-jupyter
     - hvplot
     - ipygany
     - ipyleaflet >=0.16.0
     - ipyvtklink
     - keplergl
     - laspy
-    - leafmap >=0.19.0
+    - leafmap >=0.22.0
     - lidar
     - localtileserver >=0.6.1
     - mapboxgl
+    - mapclassify
     - mapwidget
     - movingpandas
     - netcdf4
@@ -67,9 +69,11 @@ requirements:
     - proplot
     - psycopg2
     - pydeck
-    - pygis >=0.5.0
+    - pygis >=0.6.0
     - pyntcloud
     - pysal
+    - pyshp
+    - pystac-client
     - python-mss
     - pyvista
     - radiant-mlhub
@@ -88,9 +92,15 @@ requirements:
     - sqlalchemy
     - stackstac
     - tropycal
+    - usgs
+    - whitebox
+    - whiteboxgui
+    - wxee
+    - xarray
+    - xarray_leaflet
     - xarray-spatial
     - xmovie
-    - wxee
+    - xyzservices
 
 test:
   imports:
