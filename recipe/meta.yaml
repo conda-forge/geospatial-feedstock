@@ -34,12 +34,12 @@ requirements:
     - eemont
     - eomaps
     - eoreader
-    - fiona >=1.9.0
-    - folium 
+    - fiona
+    - folium >=0.12.1
     - geemap >=0.30.4
     - geoalchemy2
     - geocube
-    - geopandas
+    - geopandas >=0.10.2
     - geotiff
     - geosnap
     - geoviews
@@ -71,7 +71,7 @@ requirements:
     - proplot
     - psycopg2
     - pydeck
-    - pygis
+    - pygis >=0.6.0
     - pyntcloud
     - pysal
     - pyshp
