@@ -20,6 +20,7 @@ requirements:
     - python >=3.8
   run:
     - python >=3.8
+    - apache-sedona
     - bokeh
     - cartopy
     - cenpy
@@ -34,11 +35,11 @@ requirements:
     - eomaps
     - eoreader
     - fiona
-    - folium >=0.12.1
-    - geemap >=0.24.0
+    - folium 
+    - geemap >=0.30.4
     - geoalchemy2
     - geocube
-    - geopandas >=0.10.2
+    - geopandas
     - geotiff
     - geosnap
     - geoviews
@@ -46,13 +47,14 @@ requirements:
     - h3-py
     - hvplot
     - ipygany
-    - ipyleaflet >=0.16.0
+    - ipyleaflet >=0.30.1
     - ipyvtklink
     - keplergl
     - laspy
     - leafmap >=0.22.0
     - lidar
-    - localtileserver >=0.6.1
+    - localtileserver
+    - lonboard
     - mapboxgl
     - mapclassify
     - mapwidget
@@ -69,11 +71,12 @@ requirements:
     - proplot
     - psycopg2
     - pydeck
-    - pygis >=0.6.0
+    - pygis
     - pyntcloud
     - pysal
     - pyshp
     - pystac-client
+    - python-duckdb
     - python-mss
     - pyvista
     - radiant-mlhub
@@ -97,8 +100,8 @@ requirements:
     - whiteboxgui
     - wxee
     - xarray
-    - xarray_leaflet
     - xarray-spatial
+    - xee
     - xmovie
     - xyzservices
 
