@@ -53,6 +53,7 @@ requirements:
     - leafmap >=0.22.0
     - lidar
     - localtileserver >=0.6.1
+    - lonboard
     - mapboxgl
     - mapclassify
     - mapwidget
@@ -74,6 +75,7 @@ requirements:
     - pysal
     - pyshp
     - pystac-client
+    - python-duckdb
     - python-mss
     - pyvista
     - radiant-mlhub
