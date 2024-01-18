@@ -47,11 +47,11 @@ requirements:
     - h3-py
     - hvplot
     - ipygany
-    - ipyleaflet >=0.30.1
+    - ipyleaflet 
     - ipyvtklink
     - keplergl
     - laspy
-    - leafmap >=0.22.0
+    - leafmap >=0.30.1
     - lidar
     - localtileserver
     - lonboard
