@@ -34,7 +34,7 @@ requirements:
     - eemont
     - eomaps
     - eoreader
-    - fiona
+    - fiona >=1.9.0
     - folium 
     - geemap >=0.30.4
     - geoalchemy2
