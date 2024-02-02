@@ -27,6 +27,7 @@ requirements:
     - cubo
     - dask-geopandas
     - datashader
+    - earthaccess
     - earthengine-api
     - earthpy
     - easystac
