@@ -1,5 +1,5 @@
 {% set name = "geospatial" %}
-{% set version = "0.10.0" %}
+{% set version = "0.10.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/geospatial-{{ version }}.tar.gz
-  sha256: b40f24e1a4dcd18185d601dc30c964c3e25112bffc1d984679059d61508a38fe
+  sha256: 1f548f119c1dcbca6970bad54d67bcf408c1d6573f0fee0ba2ab01249afd47b3
 
 build:
   noarch: python
@@ -79,7 +79,6 @@ requirements:
     - python-duckdb
     - python-mss
     - pyvista
-    - radiant-mlhub >=0.5.5
     - rasterio
     - rasterstats
     - rio-cogeo
