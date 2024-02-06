@@ -24,7 +24,7 @@ requirements:
     - cartopy
     - cenpy
     - contextily
-    - cubo
+    # - cubo
     - dask-geopandas
     - datashader
     - earthaccess
