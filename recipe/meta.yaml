@@ -54,7 +54,7 @@ requirements:
     - laspy
     - leafmap >=0.31.0
     - lidar
-    - localtileserver >=0.6.1
+    - localtileserver >=0.10.0
     - mapboxgl
     - mapclassify
     - mapwidget
@@ -68,7 +68,6 @@ requirements:
     - pillow
     - planetary-computer
     - plotly
-    - proplot
     - psycopg2
     - pydeck
     - pygis >=0.6.0
