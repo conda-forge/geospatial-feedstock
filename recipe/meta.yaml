@@ -20,6 +20,7 @@ requirements:
     - python >=3.8
   run:
     - python >=3.8
+    - apache-sedona
     - bokeh
     - cartopy
     - cenpy
@@ -27,6 +28,7 @@ requirements:
     - cubo
     - dask-geopandas
     - datashader
+    - earthaccess
     - earthengine-api
     - earthpy
     - easystac
@@ -98,6 +100,7 @@ requirements:
     - wxee
     - xarray
     - xarray-spatial
+    - xee
     - xmovie
     - xyzservices
 
