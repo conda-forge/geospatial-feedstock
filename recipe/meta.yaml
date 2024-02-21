@@ -65,6 +65,7 @@ requirements:
     - owslib
     - panel
     - palettable
+    - pdal
     - pillow
     - planetary-computer
     - plotly
