@@ -53,6 +53,7 @@ requirements:
     - keplergl
     - laspy
     - leafmap >=0.31.0
+    - libgdal-arrow-parquet
     - lidar
     - localtileserver >=0.10.0
     - mapboxgl
