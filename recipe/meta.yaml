@@ -50,14 +50,17 @@ requirements:
     - ipygany
     - ipyleaflet >=0.16.0
     - ipyvtklink
+    - kaleido
     - keplergl
     - laspy
     - leafmap >=0.31.0
     - libgdal-arrow-parquet
     - lidar
     - localtileserver >=0.10.0
+    - lonboard
     - mapboxgl
     - mapclassify
+    - maplibre
     - mapwidget
     - movingpandas
     - netcdf4
