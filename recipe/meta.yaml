@@ -37,7 +37,7 @@ requirements:
     - eoreader
     - fiona
     - folium >=0.12.1
-    - geemap >=0.30.4
+    - geemap >=0.32.1
     - geoalchemy2
     - geocube
     - geopandas >=0.10.2
@@ -47,17 +47,18 @@ requirements:
     - h3
     - h3-py
     - hvplot
+    - hypercoast
     - ipygany
     - ipyleaflet >=0.16.0
-    - ipyvtklink
     - keplergl
     - laspy
-    - leafmap >=0.31.0
+    - leafmap >=0.33.2
     - libgdal-arrow-parquet
     - lidar
     - localtileserver >=0.10.0
     - mapboxgl
     - mapclassify
+    - maplibre
     - mapwidget
     - movingpandas
     - netcdf4
