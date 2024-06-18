@@ -59,7 +59,7 @@ requirements:
     - lonboard
     - mapboxgl
     - mapclassify
-    - maplibre
+    # - maplibre
     - mapwidget
     - movingpandas
     - netcdf4
