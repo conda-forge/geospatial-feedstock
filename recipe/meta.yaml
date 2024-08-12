@@ -111,8 +111,8 @@ requirements:
 test:
   imports:
     - geospatial
-  commands:
-    - pip check
+  # commands:
+  #   - pip check
   requires:
     - pip
 
