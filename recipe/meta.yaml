@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -59,12 +59,13 @@ requirements:
     - lonboard
     - mapboxgl
     - mapclassify
-    # - maplibre
+    - maplibre
     - mapwidget
     - movingpandas
     - netcdf4
     - odc-stac
     - osmnx
+    - overturemaps
     - owslib
     - panel
     - palettable
@@ -116,14 +117,14 @@ test:
     - pip
 
 about:
-  home: https://github.com/giswqs/geospatial
+  home: https://github.com/opengeos/geospatial
   summary: A Python package for installing commonly used packages for geospatial analysis and data visualization with only one command.
   description: A Python package for installing commonly used packages for geospatial analysis and data visualization with only one command.
   license: MIT
   license_family: MIT
   license_file: LICENSE
   doc_url: https://geospatial.gishub.org
-  dev_url: https://github.com/giswqs/geospatial
+  dev_url: https://github.com/opengeos/geospatial
 
 extra:
   recipe-maintainers:
