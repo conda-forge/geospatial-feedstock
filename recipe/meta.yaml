@@ -1,5 +1,5 @@
 {% set name = "geospatial" %}
-{% set version = "0.10.4" %}
+{% set version = "0.10.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,19 +7,20 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/geospatial-{{ version }}.tar.gz
-  sha256: 931541553e799a367b103453a37a1ca0ed541c37ec45d75a4bc1eafa8dc0baa4
+  sha256: 7f26bd576647523c22ffa8c6b08173c79ef9982aa9183b6ee62f2461c7b26c01
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python >=3.9
+    - setuptools
   run:
-    - python >=3.8
+    - python >=3.9
     - apache-sedona
     - bokeh
     - cartopy
