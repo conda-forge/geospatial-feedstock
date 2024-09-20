@@ -3,13 +3,13 @@ About geospatial-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/geospatial-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/giswqs/geospatial
+Home: https://github.com/opengeos/geospatial
 
 Package license: MIT
 
 Summary: A Python package for installing commonly used packages for geospatial analysis and data visualization with only one command.
 
-Development: https://github.com/giswqs/geospatial
+Development: https://github.com/opengeos/geospatial
 
 Documentation: https://geospatial.gishub.org
 
