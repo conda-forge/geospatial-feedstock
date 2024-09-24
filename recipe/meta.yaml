@@ -1,5 +1,5 @@
 {% set name = "geospatial" %}
-{% set version = "0.11.0" %}
+{% set version = "0.11.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/geospatial-{{ version }}.tar.gz
-  sha256: 7d94540c69d5e8256e5518d066a3db86e85598708d1ac013b761b04bc4523c12
+  sha256: 03f1ed34125b52fbe27107bdc528f0afea31c12a19ed1db1890f29851081d604
 
 build:
   noarch: python
