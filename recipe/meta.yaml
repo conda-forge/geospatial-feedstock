@@ -27,6 +27,7 @@ requirements:
     - cenpy
     - contextily
     - cubo
+    - dask-ee
     - dask-geopandas
     - datashader
     - earthaccess
