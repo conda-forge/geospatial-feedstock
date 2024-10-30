@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 2
 
 requirements:
   host:
@@ -114,8 +114,8 @@ requirements:
 test:
   imports:
     - geospatial
-  # commands:
-  #   - pip check
+  commands:
+    - pip check
   requires:
     - pip
 
