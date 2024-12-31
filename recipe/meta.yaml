@@ -6,21 +6,21 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/geospatial-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/geospatial-{{ version }}.tar.gz
   sha256: 893bfcfe7b78b450b2dcea30e6aa5cb11f3d44a1e4ceac9baae73a13b31b6bc2
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 2
 
 requirements:
   host:
     - pip
-    - python >=3.9
+    - python {{ python_min }}
     - setuptools
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - apache-sedona
     - bokeh
     - cartopy
@@ -118,6 +118,7 @@ test:
   #   - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/opengeos/geospatial
