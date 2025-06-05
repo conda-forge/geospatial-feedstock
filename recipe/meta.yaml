@@ -1,5 +1,5 @@
 {% set name = "geospatial" %}
-{% set version = "0.11.4" %}
+{% set version = "0.11.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/geospatial-{{ version }}.tar.gz
-  sha256: 734dac0f96c58a285acee425d954f27a91cb354b87624cf1fd5e8bd09758abb7
+  sha256: 310675e1945098a2f4ea6baf716e4804ffd28698f130992f13e2ec1b8bd3eda9
 
 build:
   noarch: python
@@ -39,7 +39,7 @@ requirements:
     - eoreader
     - fiona
     - folium >=0.12.1
-    - geemap >=0.34.3
+    - geemap >=0.35.0
     - geoalchemy2
     - geocube
     - geofileops
@@ -55,11 +55,11 @@ requirements:
     - ipyleaflet >=0.16.0
     - keplergl
     - laspy
-    - leafmap >=0.37.6
+    - leafmap >=0.47.2
     - libgdal-arrow-parquet
     - lidar
     - localtileserver >=0.10.0
-    - lonboard
+    # - lonboard
     - mapboxgl
     - mapclassify
     - maplibre
@@ -97,11 +97,14 @@ requirements:
     - shapely
     - simplekml
     - sliderule
+    - solara
     - spyndex
     - sqlalchemy
     - stackstac
     - tropycal
     - usgs
+    - voila
+    - voila_topbar
     - whitebox
     - whiteboxgui
     - wxee
