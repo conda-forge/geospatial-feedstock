@@ -39,7 +39,7 @@ requirements:
     - eoreader
     - fiona
     - folium >=0.12.1
-    - gdal
+    # - gdal
     - geemap >=0.35.0
     - geoalchemy2
     - geocube
@@ -78,11 +78,11 @@ requirements:
     - pillow
     - planetary-computer
     - plotly
-    - proj
+    # - proj
     - psycopg2
     # - pydeck
     - pygis >=0.7.0
-    - pyproj
+    # - pyproj
     - pyntcloud
     - pyogrio
     - pyresample
