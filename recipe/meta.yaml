@@ -84,6 +84,8 @@ requirements:
     - pygis >=0.7.0
     - pyproj
     - pyntcloud
+    - pyogrio
+    - pyresample
     - pysal
     - pyshp
     - pystac-client
