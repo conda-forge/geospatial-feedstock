@@ -1,5 +1,5 @@
 {% set name = "geospatial" %}
-{% set version = "0.11.5" %}
+{% set version = "0.11.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/geospatial-{{ version }}.tar.gz
-  sha256: 310675e1945098a2f4ea6baf716e4804ffd28698f130992f13e2ec1b8bd3eda9
+  sha256: fcfa73d5fd0382d3bc384a6b8336ced6881a31b8ce40106bed36fafde9f23d6f
 
 build:
   noarch: python
@@ -39,11 +39,13 @@ requirements:
     - eoreader
     - fiona
     - folium >=0.12.1
+    - gdal
     - geemap >=0.35.0
     - geoalchemy2
     - geocube
     - geofileops
     - geopandas >=0.10.2
+    - geos
     - geotiff
     - geosnap
     - geoviews
@@ -76,9 +78,11 @@ requirements:
     - pillow
     - planetary-computer
     - plotly
+    - proj
     - psycopg2
-    - pydeck
+    # - pydeck
     - pygis >=0.7.0
+    - pyproj
     - pyntcloud
     - pysal
     - pyshp
