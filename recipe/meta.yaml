@@ -55,7 +55,7 @@ requirements:
     - hypercoast
     - ipygany
     - ipyleaflet >=0.16.0
-    - keplergl
+    # - keplergl
     - laspy
     - leafmap >=0.47.2
     - libgdal-arrow-parquet
