@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -39,11 +39,13 @@ requirements:
     - eoreader
     - fiona
     - folium >=0.12.1
+    # - gdal
     - geemap >=0.35.0
     - geoalchemy2
     - geocube
     - geofileops
     - geopandas >=0.10.2
+    - geos
     - geotiff
     - geosnap
     - geoviews
@@ -53,7 +55,7 @@ requirements:
     - hypercoast
     - ipygany
     - ipyleaflet >=0.16.0
-    - keplergl
+    # - keplergl
     - laspy
     - leafmap >=0.47.2
     - libgdal-arrow-parquet
@@ -76,10 +78,14 @@ requirements:
     - pillow
     - planetary-computer
     - plotly
+    # - proj
     - psycopg2
-    - pydeck
+    # - pydeck
     - pygis >=0.7.0
+    # - pyproj
     - pyntcloud
+    - pyogrio
+    - pyresample
     - pysal
     - pyshp
     - pystac-client
