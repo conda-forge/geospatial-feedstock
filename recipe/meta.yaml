@@ -1,5 +1,5 @@
 {% set name = "geospatial" %}
-{% set version = "0.11.6" %}
+{% set version = "0.12.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/geospatial-{{ version }}.tar.gz
-  sha256: fcfa73d5fd0382d3bc384a6b8336ced6881a31b8ce40106bed36fafde9f23d6f
+  sha256: 3f59314d9892e052ca935cac86f6321822d253323d7967ab484df7b53fce857e
 
 build:
   noarch: python
@@ -43,6 +43,8 @@ requirements:
     - geoalchemy2
     - geocube
     - geofileops
+    - geolibre
+    - geolibre-wasm
     - geopandas >=0.10.2
     - geotiff
     - geosnap
